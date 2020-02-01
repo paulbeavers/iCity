@@ -7,10 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "City.h"
 
 @interface DetailViewController : UIViewController
 
-@property (strong, nonatomic) NSDate *detailItem;
+@property (strong, nonatomic) City *detailItem;
 @property (weak, nonatomic) IBOutlet UILabel *detailDescriptionLabel;
 
 @end

@@ -7,9 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "AppData.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
-
+{
+    @public
+    AppData * g_appData;
+}
 
 @end
 

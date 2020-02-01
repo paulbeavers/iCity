@@ -17,6 +17,12 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    // create the global data structure
+    
+    g_appData = [[AppData alloc] init];
+    
+    
     return YES;
 }
 

@@ -15,6 +15,9 @@
 		B2A60CC223E5262000E94411 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2A60CC123E5262000E94411 /* Assets.xcassets */; };
 		B2A60CC523E5262000E94411 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2A60CC323E5262000E94411 /* LaunchScreen.storyboard */; };
 		B2A60CC823E5262000E94411 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B2A60CC723E5262000E94411 /* main.m */; };
+		B2F3699523E53179001A76DA /* AppData.m in Sources */ = {isa = PBXBuildFile; fileRef = B2F3699423E53179001A76DA /* AppData.m */; };
+		B2F3699823E532A5001A76DA /* City.m in Sources */ = {isa = PBXBuildFile; fileRef = B2F3699723E532A5001A76DA /* City.m */; };
+		B2F3699B23E53EDC001A76DA /* CustomCellTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B2F3699A23E53EDC001A76DA /* CustomCellTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +35,12 @@
 		B2A60CC423E5262000E94411 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B2A60CC623E5262000E94411 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B2A60CC723E5262000E94411 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B2F3699323E53179001A76DA /* AppData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppData.h; sourceTree = "<group>"; };
+		B2F3699423E53179001A76DA /* AppData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppData.m; sourceTree = "<group>"; };
+		B2F3699623E532A5001A76DA /* City.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = City.h; sourceTree = "<group>"; };
+		B2F3699723E532A5001A76DA /* City.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = City.m; sourceTree = "<group>"; };
+		B2F3699923E53EDC001A76DA /* CustomCellTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomCellTableViewCell.h; sourceTree = "<group>"; };
+		B2F3699A23E53EDC001A76DA /* CustomCellTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomCellTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +86,12 @@
 				B2A60CC323E5262000E94411 /* LaunchScreen.storyboard */,
 				B2A60CC623E5262000E94411 /* Info.plist */,
 				B2A60CC723E5262000E94411 /* main.m */,
+				B2F3699323E53179001A76DA /* AppData.h */,
+				B2F3699423E53179001A76DA /* AppData.m */,
+				B2F3699623E532A5001A76DA /* City.h */,
+				B2F3699723E532A5001A76DA /* City.m */,
+				B2F3699923E53EDC001A76DA /* CustomCellTableViewCell.h */,
+				B2F3699A23E53EDC001A76DA /* CustomCellTableViewCell.m */,
 			);
 			path = iCity;
 			sourceTree = "<group>";
@@ -153,8 +168,11 @@
 			files = (
 				B2A60CC823E5262000E94411 /* main.m in Sources */,
 				B2A60CB423E5261E00E94411 /* AppDelegate.m in Sources */,
+				B2F3699B23E53EDC001A76DA /* CustomCellTableViewCell.m in Sources */,
 				B2A60CBA23E5261E00E94411 /* MasterViewController.m in Sources */,
+				B2F3699523E53179001A76DA /* AppData.m in Sources */,
 				B2A60CB723E5261E00E94411 /* SceneDelegate.m in Sources */,
+				B2F3699823E532A5001A76DA /* City.m in Sources */,
 				B2A60CBD23E5261E00E94411 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
